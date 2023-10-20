@@ -1,0 +1,60 @@
+@import url(sections/1-nav.css);
+@import url(sections/2-header.css);
+
+:root {
+    /* Fonts */
+    --headingFont: "Raleway", sans-serif;
+    --bodyFont: "Open Sans", sans-serif;
+
+    /* 
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    */
+
+    /* Color */
+    --mainBackground: hsl(218, 28%, 13%);
+    --introBackground: hsl(217, 28%, 15%);
+    --footerBackground: hsl(216, 53%, 9%);
+    --testimonialBackground: hsl(219, 30%, 18%);
+    --white: #FFFFFF;
+
+    /* Accents */
+    --cyan: hsl(176, 68%, 64%);
+    --blue:  hsl(198, 60%, 50%);
+    --lightRed: hsl(0, 100%, 63%);
+}
+
+* {
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--mainBackground);
+    color: var(--white);
+
+    font-family: var(--bodyFont);
+}
+
+
+/* Background */
+.top-bg  {
+    background-color: var(--introBackground);
+    position: relative;
+    height: 500px;
+}
+
+.top-bg .shape {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+}
+
+.lower-bg {
+    background-color: var(--mainBackground);
+    height: 500px;
+}
+
+

@@ -1,0 +1,40 @@
+.nav {
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-family: var(--headingFont);
+    font-weight: 400;
+}
+
+.nav .nav-logo {
+    background-size: contain;
+    width: 25%;
+}
+
+.nav .nav-logo img {
+    width: 100%;
+}
+
+
+
+.nav .nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
+
+}
+
+.nav-links ul li {
+    list-style: none;
+
+    
+}
+
+.nav-links ul {
+   display: flex;
+   gap: 1em;
+
+}
