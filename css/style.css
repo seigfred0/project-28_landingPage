@@ -17,6 +17,7 @@
     --footerBackground: hsl(216, 53%, 9%);
     --testimonialBackground: hsl(219, 30%, 18%);
     --white: #FFFFFF;
+    --offWhite: rgb(220, 220, 220);
 
     /* Accents */
     --cyan: hsl(176, 68%, 64%);
@@ -42,7 +43,9 @@ body {
 .top-bg  {
     background-color: var(--introBackground);
     position: relative;
-    height: 500px;
+    height: 400px;
+
+    z-index: 0;
 }
 
 .top-bg .shape {
@@ -50,6 +53,8 @@ body {
     background-repeat: no-repeat;
     position: absolute;
     bottom: 0;
+
+    z-index: -2;
 }
 
 .lower-bg {

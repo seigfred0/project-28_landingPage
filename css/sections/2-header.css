@@ -1,0 +1,48 @@
+.header {
+    padding: 0 2em 0 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25em;
+}
+
+.header img {
+    background-size: cover;
+    width: 100%;
+    transform: scale(0.95);
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 1.45rem;
+    font-family: var(--headingFont);
+    z-index: 2;
+}
+
+.header p {
+    font-size: 0.9rem;
+    text-align: center;
+    font-family: var(--headingFont);
+
+    padding: 0 0.5em 0 0.5em;
+    color: var(--offWhite);
+}
+
+.header button {
+    display: block;
+    margin: 1.5em auto 0 auto;
+
+    font-family: var(--headingFont);
+    font-weight: 700;
+    color: white;
+    background-color: var(--cyan);
+    width: 190px;
+    padding: 0.85em 1.5em;
+    border: none;
+    border-radius: 27px;
+    background: linear-gradient(to right, var(--cyan),var(--blue) 80%, var(--blue));
+}
+
+/* 
+  background: linear-gradient(to right, var(--cyan), var(--blue));
+
+*/
