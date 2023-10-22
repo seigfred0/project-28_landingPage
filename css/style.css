@@ -1,5 +1,8 @@
 @import url(sections/1-nav.css);
 @import url(sections/2-header.css);
+@import url(sections/3-features.css);
+@import url(sections/4-purposeSection.css);
+@import url(sections/5-testimonials.css);
 
 :root {
     /* Fonts */
@@ -17,7 +20,7 @@
     --footerBackground: hsl(216, 53%, 9%);
     --testimonialBackground: hsl(219, 30%, 18%);
     --white: #FFFFFF;
-    --offWhite: rgb(220, 220, 220);
+    --offWhite: rgb(238, 238, 238);
 
     /* Accents */
     --cyan: hsl(176, 68%, 64%);
@@ -40,7 +43,7 @@ body {
 
 
 /* Background */
-.top-bg  {
+.background  {
     background-color: var(--introBackground);
     position: relative;
     height: 400px;
@@ -48,7 +51,7 @@ body {
     z-index: 0;
 }
 
-.top-bg .shape {
+.background .shape {
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -62,4 +65,18 @@ body {
     height: 500px;
 }
 
+img {
+    width: 100%;
+}
 
+/* Text */
+
+.h1-body {
+    margin-top: 1.1em;
+    font-size: 1.1rem;
+    font-family: var(--headingFont);
+}
+
+.p-body {
+    font-size: 0.85rem;
+}

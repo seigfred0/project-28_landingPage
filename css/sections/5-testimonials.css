@@ -1,0 +1,77 @@
+.testimonial-section {
+    padding: 5em 2.25em 5em 2.25em;
+    display: flex;  
+    flex-direction: column;
+    gap: 2em;
+
+}
+
+.testimonial-cards {
+    background-color: var(--testimonialBackground);
+    padding: 2em 1.2em;
+}
+
+.testimonial-cards .feedback {
+    font-family: var(--bodyFont);
+    font-size: 0.6rem;
+    color: var(--offWhite);
+    letter-spacing: 0.1em;
+}
+
+.user-testimonial {
+    display: flex;
+    margin-top: 1.3em;
+    gap: 0.5em;
+    align-items: center;
+}
+
+.user-testimonial img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.user-testimonial_info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+}
+
+.user-testimonial_info .name{
+    font-size: 0.85rem;
+    font-weight: 700;   
+    font-family: var(--headingFont);
+}
+
+
+.user-testimonial_info .business{
+    font-size: 0.60rem;
+    font-weight: 400;   
+    font-family: var(--headingFont);
+}
+
+
+
+/* Quotation Background */
+.quotation-bg {
+    position: relative;
+    padding-top: 1em;
+}
+
+.card-one {
+    z-index: 5;
+}
+
+.card-one::before {
+    content: "";
+    position: absolute;
+    background-image: url(../../images/bg-quotes.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 24px;
+
+    top: -1px;
+    left: 6px;
+    z-index: -1;
+}
