@@ -1,0 +1,47 @@
+.signUp-section {
+    position: relative;
+
+    padding: 0 1.5em;
+    text-align: center;
+}
+
+.signUp-section_card  {
+    padding: 2.5em 1.75em;
+
+    display: flex;
+    flex-direction: column; 
+    gap: 1.70em;
+
+    position: relative;
+    top: -7em;
+    border-radius: 6px;
+    background-color: var(--testimonialBackground);
+    box-shadow: 10px 0 9px rgba(19, 19, 19, 0.5);
+
+}
+
+.signUp-section_card h1 {
+    font-size: 1.1rem;
+    font-family: var(--headingFont);
+}
+
+.signUp-section_card input {
+    border-radius: 20px;
+    padding: 1em 2em;
+    border: none;
+}
+
+.signUp-section_card button {
+    margin-top: -3.5em;
+    padding-top: 0em;
+    border-radius: 20px;
+    padding: 1em 2em;   
+    border: none;
+    font-weight: 700;
+}
+
+
+
+footer {
+    position: relative;
+}

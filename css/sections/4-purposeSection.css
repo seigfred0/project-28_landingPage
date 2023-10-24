@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     padding: 0 1.5em 0 1.5em;
-
+    margin-top: 4em;
 }
 
 .purpose-section_image {
@@ -17,9 +17,10 @@
 .purpose-section_text {
     display: flex;
     flex-direction: column; 
-    gap: 1em;
+    gap: 1.5em;
 
     position: relative;
+    margin-top: 3em;
 }
 
 .purpose-section_text h1{

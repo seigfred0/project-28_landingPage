@@ -3,6 +3,10 @@
 @import url(sections/3-features.css);
 @import url(sections/4-purposeSection.css);
 @import url(sections/5-testimonials.css);
+@import url(sections/7-footer.css);
+@import url(sections/6-emailSignUp.css);
+@import url(sections/7-footer.css);
+
 
 :root {
     /* Fonts */
@@ -61,6 +65,8 @@ body {
 }
 
 .lower-bg {
+    position: relative;
+
     background-color: var(--mainBackground);
     height: 500px;
 }
