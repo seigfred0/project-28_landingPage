@@ -78,3 +78,25 @@ footer img {
     list-style: none;
 
 }
+
+
+/* Icons */
+.footer-section_social {
+    display: flex;
+    gap: 2em;
+    margin: 5.5em auto;
+}
+
+.footer-section_social i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 0.8em;
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+}
+
+
