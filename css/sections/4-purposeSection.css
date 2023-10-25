@@ -42,7 +42,7 @@
     left: 0;
     bottom: 0;
     width: 145px;
-    height: 1px; /* Adjust the thickness of the underline as needed */
+    height: 1px; 
     background-color: cyan;
     z-index: -1;
   }

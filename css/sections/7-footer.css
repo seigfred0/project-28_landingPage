@@ -84,7 +84,7 @@ footer img {
 .footer-section_social {
     display: flex;
     gap: 2em;
-    margin: 5.5em auto;
+    margin: 5% auto;
 }
 
 .footer-section_social i {
