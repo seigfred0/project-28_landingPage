@@ -15,9 +15,23 @@
     position: relative;
     top: -7em;
     border-radius: 6px;
-    background-color: var(--testimonialBackground);
+    background-color: var(--introBackground);
     box-shadow: 10px 0 9px rgba(19, 19, 19, 0.5);
 
+    max-width: 400px;
+    margin: auto auto;
+}
+
+.signUp-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25em;
+}
+
+.signUp-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 .signUp-section_card h1 {
@@ -29,17 +43,24 @@
     border-radius: 20px;
     padding: 1em 2em;
     border: none;
+    display: inline-flex;
 }
 
 .signUp-section_card button {
-    margin-top: -3.5em;
-    padding-top: 0em;
+    background: linear-gradient(to right, var(--cyan),var(--cyan) 20%, var(--blue));
+    color: var(--white);
     border-radius: 20px;
     padding: 1em 2em;   
     border: none;
     font-weight: 700;
+
+    cursor: pointer;
 }
 
+.signUp-section_card button:hover {
+    background: hsl(176, 56%, 71%); 
+
+}
 
 
 footer {

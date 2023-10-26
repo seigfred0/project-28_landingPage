@@ -2,7 +2,7 @@ footer {
     height: 25em;
     background-color: var(--footerBackground);
 
-    min-height: 150vh;
+    min-height: 110vh;
 }
 
 
@@ -16,9 +16,16 @@ footer .footer-section {
 
 }
 
-footer img {
-    max-width: 150px;
+.footer-image {
+    width: 100px;
+    height: auto;
+    max-width: 100px;
 }
+
+.footer-logo {
+    padding-left: 1.5em;
+}
+
 
 .footer-section_details {
     display: flex;

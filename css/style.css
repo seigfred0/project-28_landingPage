@@ -252,4 +252,124 @@ img {
         background-color: cyan;
         z-index: -1;
     }
+
+    /* Testimonial Section */
+    .testimonial-section {
+        max-width: 1300px;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 10em;
+    }
+
+    .testimonial-cards {
+        background-color: var(--testimonialBackground);
+        padding: 2em 1.2em;
+
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        box-shadow: 10px 10px 9px rgba(22, 22, 22, 0.6);
+
+    }
+    
+    .testimonial-cards .feedback {
+        
+        font-size: 0.80rem;
+        letter-spacing: 0.1em;
+    }
+
+    .quotation-bg::before {
+       
+        width: 45px;
+        height: 40px;
+    
+        top: -7.5em;
+        left: 1.5em;
+        z-index: 9;
+    }
+
+    /* Email Section */
+
+    .signUp-section {
+        position: relative;
+    
+        padding: 0 1.5em;
+        text-align: center;
+
+        max-width: 900px;
+        margin: auto auto;
+    }
+
+    .signUp-section_card {
+        max-width: 800px;
+        padding: 3em 5em;
+    }
+
+    .signUp-inputs {
+        flex-direction: row;
+        margin-top: 1em;
+        gap: 2em;
+    }
+
+    .signUp-inputs input {
+        flex: 1;
+        font-size: 0.75rem;
+    }
+
+    .signUp-inputs button {
+        flex: 0.30;
+        font-size: 0.75rem;
+    }
+
+    .signUp-text {
+        gap: 2em;
+    }
+
+
+    .signUp-text h1 {
+        font-size: 1.5rem;
+    }
+
+    /* Footer Section */
+    
+    .footer-image {
+        width: 200px;
+        height: auto;
+        max-width: 200px;
+
+    }
+
+    .footer-max {
+        max-width: 1100px;
+        margin: auto auto;
+    }
+
+    footer .footer-section {
+    
+        flex-direction: row;
+        padding: 0;
+        align-items: start;
+        margin-top: 4em;
+    }
+    
+    .footer-section_details {
+        display: flex;
+        flex-direction: row;
+        flex: 1.4;
+        margin: 0;
+    }
+
+    .footer-section_links {
+        flex: 1;
+        flex-direction: row;
+        margin-top: 0;
+        justify-content: center;
+    }
+
+    .footer-section_social {
+        margin: 0;
+    }
+
 }
