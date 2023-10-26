@@ -75,15 +75,28 @@ footer .footer-section {
     margin-top: 5em;
     display: flex;
     flex-direction: column;
-    gap: 4.5em;
+    gap: 2.5em;
+  
 }
 
 .footer-links {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     gap: 1em;
     list-style: none;
+    color: var(--offWhite);
 
+    cursor: pointer;
+}
+
+.footer-links li {
+    min-width: 100px;
+}
+
+.footer-links li:hover {
+    color: var(--white);
+    font-weight: 700;
+    
 }
 
 

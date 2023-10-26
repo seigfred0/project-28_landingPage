@@ -34,6 +34,7 @@
     gap: 0.4em;
     padding-bottom: 0.4em;
     max-width: 150px;
+    cursor: pointer;
 }
 
 .purpose-section_text .link::before {
@@ -45,7 +46,7 @@
     height: 1px; 
     background-color: cyan;
     z-index: -1;
-  }
+}
 
 
 .purpose-section_text .link .link-image {
@@ -56,3 +57,8 @@
 .purpose-section_text .link .p-body {
     color: var(--cyan);
 }
+
+.purpose-section_text .link .p-body:hover {
+    color: var(--white);
+}
+

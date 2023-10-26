@@ -41,7 +41,9 @@
       <button class="header-button">Get Started</button>
     </header>
 
-    <img class="shape" src="images/bg-curvy-mobile.svg" alt="background design">
+    <img class="shape shape-mobile" src="images/bg-curvy-mobile.svg" alt="background design">
+    <img class="shape shape-desktop" src="images/bg-curvy-desktop.svg" alt="background design">
+
 
     <div class="lower-bg">
       <div class="features-section tablet-dimension center-desktop">
@@ -84,11 +86,8 @@
         </div>
       </div>
 
-
       <div class="testimonial-section center-desktop">
-     
         <div class="quotation-bg"></div>
-
         <div class="testimonial-cards card-one"> 
           <p class="feedback">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
           <div class="user-testimonial">
@@ -100,7 +99,6 @@
           </div>
         </div>
     
-
         <div class="testimonial-cards">
           <p class="feedback">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
           <div class="user-testimonial">
@@ -128,19 +126,19 @@
         <div class="signUp-section tablet-dimension">
           <div class="signUp-section_card">
             <div class="signUp-text">
-
               <h1>Get early access today</h1>
               <p class="p-body">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
             </div>
             <div class="signUp-inputs">
-              <input type="email" placeholder="email@example.com"> 
-              <button>Get Started For Free</button>
+              <input id="emailInput" type="email" placeholder="email@example.com"> 
+              <button id="emailButton">Get Started For Free</button>
+
+              <span id="error">Invalid Email Address</span>
             </div>
           </div>
         </div>
 
         <div class="footer-logo footer-max">
-
           <img class=" center-desktop footer-image" src="images/logo.svg" alt="">
         </div>
         <div class="footer-section footer-max">
@@ -178,12 +176,28 @@
             <i class="fa-brands fa-twitter"></i>
             <i class="fa-brands fa-instagram"></i>
           </div>
-
         </div>
-      </footer>
-    </div>
 
+      </footer>
+      <p class="attribution">
+        Challenge by<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"> Frontend Mentor</a> / 
+        Coded by <a href="#">Seigfred S.</a>
+      </p>
+    </div>
   </div>
 
+  <div id="thankYouPage" class="pop-up-page">
+    <div class="popup-content">
+        <span id="closeButton" class="close-button">&times;</span>
+        <h1>Thank You!</h1>
+        <p>Welcome Aboard! To show you how you mean to use we've sent you your first email - open it and find out your surprise.</p>
+    </div>
+  </div>
+
+  <!-- 
+    user@example.com
+   -->
+
+  <script src="main.js"></script>
 </body>
 </html>

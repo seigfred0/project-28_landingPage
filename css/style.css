@@ -45,6 +45,7 @@ body {
     color: var(--white);
 
     font-family: var(--bodyFont);
+    position: relative;
 }
 
 
@@ -52,7 +53,7 @@ body {
 .background  {
     background-color: var(--introBackground);
     position: relative;
-    height: 400px;
+    height: 1000px;
 
     z-index: 0;
 }
@@ -64,6 +65,10 @@ body {
     bottom: 0;
 
     z-index: -2;
+}
+
+.background .shape-desktop {
+    display: none;
 }
 
 .lower-bg {
@@ -88,6 +93,114 @@ img {
 .p-body {
     font-size: 0.85rem;
 }
+
+.attribution {
+    color: white;
+    background-color: var(--footerBackground);
+    padding-bottom: 1em;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.attribution a {
+    color: lightblue;
+}
+
+/* JavaScript */
+
+.signUp-inputs {
+    position: relative;
+}
+
+#error {
+    display: none;
+    position: absolute;
+    color: var(--lightRed);
+    bottom: -1.65em;
+    left: 1.5em;
+    font-size: 0.7rem;
+    font-weight: 700;
+
+    font-family: var(--bodyFont);
+}
+
+/* Thank You Page */
+.pop-up-page {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6)
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--mainBackground);
+    padding: 2em 2em 4em 2em;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    gap: 1.5em;
+}
+
+.popup-content span {
+    font-size: 3rem;
+    text-align: right;
+    /* position: absolute;
+    top: 0;
+    right: 0; */
+    cursor: pointer;
+}
+
+.popup-content p {
+    text-align: center;
+    padding: 0 3em 0 3em;
+    font-size: 1.5rem;
+    line-height: 1.9em;
+    letter-spacing: 0.15em;
+}
+
+.popup-content h1{
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+/* .pop-up-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: gray;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+} */
+
+
+
+
 
 
 
@@ -371,5 +484,22 @@ img {
     .footer-section_social {
         margin: 0;
     }
+
+
+    .background .shape-desktop {
+        display: block;
+        /* background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 0; */
+    
+        padding-top: 10em;
+        z-index: -2;
+    }
+
+    .background .shape-mobile {
+        display: none;
+    }
+
 
 }
